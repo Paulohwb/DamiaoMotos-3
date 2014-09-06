@@ -1,0 +1,16 @@
+@CHARSET "ISO-8859-1";
+
+/* Resolvendo bug da flutuação por baixo layoutUnit center */
+.ui-layout-center {
+	z-index: 20 !important;
+	overflow: visible !important;;
+}
+
+.ui-layout-center .ui-layout-unit-content {
+	overflow: visible !important;
+}
+
+/* Diminuindo o tamanho dos componentes PrimeFaces */
+.ui-widget, .ui-widget .ui-widget {
+	font-size: 12px !important;
+}
